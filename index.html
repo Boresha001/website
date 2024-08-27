@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boresha Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="logo-container">
+                <img src="images/b.jpg" alt="Boresha-logo" class="logo">
+                <span class="logo-text">Boresha</span>
+            </div>
+
+            <div class="search-container">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div id="searchSuggestions" class="suggestions"></div>
+            </div>
+
+            <div class="top-icons">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                    <p>Menu</p>
+
+                    <div class="dropdown-content" id="dropdown">
+                        <a href="about.html" class="category">
+                            <i class="fas fa-info-circle"></i>
+                            <p>About Us</p>
+                        </a>
+                        <a href="location.html" class="category">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Location</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-bar" id="nav-bar">
+            <button class="home-button" onclick="location.href='index.html'">
+                <i class="fas fa-home"></i>
+                <p>HOME</p>
+            </button>
+        </div>
+        <div class="border-line"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="welcome-section">
+                <h2>Welcome to Boresha</h2>
+                <p>At Boresha, we are dedicated to providing clean and pure drinking water in all sizes to meet your needs. We also offer custom labels for any occasion.</p>
+                <div class="producti-gallery">
+                    <div class="producti">
+                        <img src="images/catalog.jpg" alt="Customer Friendly Prices">
+                        <p>Our customer-friendly prices</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Products -->
+            <section class="products-section">
+                <h2>Our Products</h2>
+                <p>We offer a range of water bottle sizes to cater to different needs:</p>
+                <div class="product-gallery">
+                    <div class="product">
+                        <img src="images/300ml.jpg" alt="300ml Bottle">
+                        <p>300ml Bottle</p>
+                    </div>
+                    <div class="product">
+                        <img src="images/500ml.jpg" alt="500ml Bottle">
+                        <p>500ml Bottle</p>
+                    </div>
+                    <div class="product">
+                        <img src="images/1l.jpg" alt="1L Bottle">
+                        <p>1L Bottle</p>
+                    </div>
+                    <div class="product">
+                        <img src="images/1.5l.jpg" alt="1.5L Bottle">
+                        <p>1.5L Bottle</p>
+                    </div>
+                    <div class="product">
+                        <img src="images/10l.jpg" alt="10L Bottle">
+                        <p>10L Bottle</p>
+                    </div>
+                    <div class="product">
+                        <img src="images/20l.jpg" alt="20L Bottle">
+                        <p>20L Bottle</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Custom Labels for Events -->
+            <section class="custom-labels-section">
+                <h2>Custom Labels for Events</h2>
+                <p>Make your event special with our custom label service. We cater to:</p>
+                <ul>
+                    <li>Weddings - Personalized labels with the couple’s name and wedding date.</li>
+                    <li>Birthdays - Fun and vibrant labels for birthday celebrations.</li>
+                    <li>Parties - Themed labels for any kind of party.</li>
+                    <li>Funerals - Respectful and serene labels for commemorative purposes.</li>
+                    <li>Other Events - Tailored labels for baby showers, graduations, and more.</li>
+                </ul>
+                <div class="product-gallery">
+                    <div class="product">
+                        <img src="images/custom1.jpg" alt="Custom Labels 1">
+                    </div>
+                    <div class="product">
+                        <img src="images/custom2.jpg" alt="Custom Labels 2">
+                    </div>
+                    <div class="product">
+                        <img src="images/custom3.jpg" alt="Custom Labels 3">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Boresha? -->
+            <section class="why-choose-section">
+                <h2>Why Choose Boresha?</h2>
+                <p>We pride ourselves on quality assurance, customizability, and customer satisfaction.</p>
+            </section>
+
+            <!-- Contact Us -->
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <p>For orders or inquiries, reach out to us:</p>
+                <p>Phone: +254-729-714-454<br>Email: sales@boreshawater.co.ke</p>
+            </section>
+        </div>
+        <div class="border-line"></div>
+        <h2>tap here to see our location</h2>
+        <a href="location.html" class="category">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Location</p>
+        </a>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.pinterest.com/yourprofile" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var dropdown = document.getElementById('dropdown');
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Close the dropdown if clicked outside
+        window.onclick = function (event) {
+            if (!event.target.closest('.menu-icon')) {
+                var dropdown = document.getElementById('dropdown');
+                if (dropdown.style.display === 'block') {
+                    dropdown.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
